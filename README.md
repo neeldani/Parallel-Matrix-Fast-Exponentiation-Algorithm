@@ -1,6 +1,12 @@
 # Parallel-Matrix-Fast-Exponentiation-Algorithm
 Parallel implmentation of the Matrix fast exponentiation algorithm using MPI which is used to calculate large powers of a matrix. The details of the algorithm are listed in the report.pdf
 
+<h2> Dependencies </h2>
+
+<ul>
+  <li>gcc-5.4.0</li>
+  <li>openmpi-1.10.2</li>
+</ul>
 
 <h2> Usage </h2>
 
