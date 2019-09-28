@@ -10,8 +10,6 @@ Parallel implmentation of the Matrix fast exponentiation algorithm using MPI whi
 
 <h2> Usage </h2>
 
-To run the algorithm, make sure MPI is installed. The code is supported by MPI openmpi-1.10.2. 
-
 Clone the repository using:
 ```console
 foo@bar:~$ git clone git@github.com:neeldani/Parallel-Matrix-Fast-Exponentiation-Algorithm.git
