@@ -2,7 +2,8 @@
 Parallel implmentation of the Matrix fast exponentiation algorithm using MPI which is used to calculate large powers of a matrix. The details of the algorithm are listed in the report.pdf
 
 
-# Usage 
+<h2> Usage </h2>
+
 To run the algorithm, make sure MPI is installed. The code is supported by MPI openmpi-1.10.2. 
 
 Clone the repository using:
@@ -20,10 +21,12 @@ foo@bar:~$ chmoad a+x run.sh
 foo@bar:~$ ./run.sh
 ```
 
-# Future Works
+<h2> Future Works </h2>
+
 Currently, the code is functional only for matrices having number of rows divisible by number of slaves (both can be configured in the config.h file). Future work include generalization of the algorithm by removing the above mentioned constraint by using Scatterv and Gatherv functions instead of Scatter and Gather respectively.  
 
-# References 
+<h2> References </h2>
+
 The project is based on the idea covered in the paper *A parallel algorithm for matrix fast exponentiation based on MPI* published in the *2018 IEEE 3rd International Conference on Big Data Analysis (ICBDA)*.
 
 
