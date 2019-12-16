@@ -21,7 +21,7 @@ foo@bar:~$ cd Parallel-Matrix-Fast-Exponentiation-Algorithm
 ```
 Execute the run.sh file which will compile and run the master.c and slave.c programs
 ```console
-foo@bar:~$ chmoad a+x run.sh
+foo@bar:~$ chmod a+x run.sh
 foo@bar:~$ ./run.sh
 ```
 
